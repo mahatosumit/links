@@ -75,3 +75,20 @@ h2{
   color: #0cd9e7;
   padding: 10px;
 }
+
+@media only screen and (max-width: 460px){
+  .card{
+    width: 100%;
+    max-width: 300px;
+    margin: 20px auto 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .image{
+    padding: 50px;
+}
+.links{
+  padding-left: 100px;
+}
+}
